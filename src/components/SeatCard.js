@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import ReservationModal from '../components/ReservationModal';
 import {
   Card, CardImg, CardText, CardBody,
@@ -24,4 +24,12 @@ const SeatCard = (props) => {
   );
 };
 
-export default SeatCard;
+export default SeatCard; */
+
+
+import reat from React;
+import Restaurant from "../Core/Restaurant";
+
+	function seatCard(props){
+		return (<Restaurant/>);
+	}
